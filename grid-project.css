@@ -112,6 +112,28 @@ hr {
   grid-area: footer;
 }
 
+.flex-container-1 {
+  display: flex;
+  height: 85px;
+}
+
+.flex__item {
+  display: inline;
+  height: inherit;
+}
+
+.flex__item-1,
+.flex__item-2,
+.flex__item-3 {
+  flex-grow: 2;
+}
+
+.flex__item-4,
+.flex__item-5 {
+  flex-grow: 1;
+}
+
+
 /* Responsive Styles */
 
 @media (min-width:1024px) {
