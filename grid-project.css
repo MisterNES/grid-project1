@@ -442,8 +442,51 @@ hr {
   width: 19.78%;
 }
 
+.grid__section-10 {
+  height: 404px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+  "g10-1 g10-2 g10-3 g10-4 g10-5 g10-6"
+  "g10-1 g10-2 g10-3 g10-4 g10-5 g10-6"
+  "g10-1 g10-2 g10-3 g10-4 g10-5 g10-7";
+}
 
+.grid__item-10-1{
+  grid-area: g10-1;
+  height: 404px;
+}
 
+.grid__item-10-2{
+  grid-area: g10-2;
+  height: 404px;
+}
+
+.grid__item-10-3{
+  grid-area: g10-3;
+  height: 404px;
+}
+
+.grid__item-10-4{
+  grid-area: g10-4;
+  height: 404px;
+}
+
+.grid__item-10-5{
+  grid-area: g10-5;
+  height: 404px;
+}
+
+.grid__item-10-6{
+  grid-area: g10-6;
+  height: 270px;
+}
+
+.grid__item-10-7{
+  grid-area: g10-7;
+  height: 134px;
+}
 
 
 /* Responsive Styles */
