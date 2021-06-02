@@ -43,23 +43,74 @@ hr {
 
 /* Main Grid Styles */
 
+.grid__container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header header"
+    "main sidebar"
+    "other-news other-news"
+    "smarter-living smarter-living"
+    "features features"
+    "discovery discovery"
+    "most-popular most-popular"
+    "news news"
+    "footer footer"
+  ;
+}
 
+.grid__section{
+  border: 1px solid #333333;
+}
 
 /* Grid Section 1 - Flex Styles */
 
-
+.grid__section-1{
+  grid-area: header;
+}
 
 /* Grid Section 2 - Nested Grid Styles */
 
-
+.grid__section-2{
+  grid-area: main;
+}
 
 /* Grid Section 3 Styles */
 
-
+.grid__section-3{
+  grid-area: sidebar;
+}
 
 /* Remaining Section Styles */
 
+.grid__section-4{
+  grid-area: other-news;
+}
 
+.grid__section-5{
+  grid-area: smarter-living;
+}
+
+.grid__section-6{
+  grid-area: features;
+}
+
+.grid__section-7{
+  grid-area: discovery;
+}
+
+.grid__section-8{
+  grid-area: most-popular;
+}
+
+.grid__section-9{
+  grid-area: news;
+}
+
+.grid__section-10{
+  grid-area: footer;
+}
 
 /* Responsive Styles */
 
